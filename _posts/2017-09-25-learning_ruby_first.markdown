@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Learning Ruby First"
-date:   2017-09-25 16:27:24 -0400
+title:      "Learning Ruby First"
+date:       2017-09-25 16:27:24 -0400
+permalink:  learning_ruby_first
 ---
 
 
