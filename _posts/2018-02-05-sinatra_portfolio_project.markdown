@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sinatra Portfolio Project"
-date:       2018-02-05 18:07:37 +0000
+date:       2018-02-05 13:07:38 -0500
 permalink:  sinatra_portfolio_project
 ---
 
@@ -13,6 +13,4 @@ I started the project by creating my models - My Team model which belongs to a U
 The homepage of my app is very basic. It welcomes you to Fantasy Quidditch and presents two buttons - Login & Signup. If login is unsuccesful you are led to a login error page and the same goes for a signup error. With a succesful login you are taken to the teams index and can continue editing/deleting/creating your teams. From signup you are then prompted to login and led the same route. Users must be logged in to edit or delete a team and they must be the original team creator. In addition, users may view teams made my by other users, without the ability to revise them.
 
 My favorite part of this project was seeing the code come to life in a functioning website created from scratch. With so many labs and lessons in this course based on tests or codealongs, It was refreshing to create something unique and imaginative with total flexibility. It was fun being able to create each aspect of the site and especially having the chance to use HTML and CSS again. 
-
-[Fantasy Quidditch!](https://github.com/mconway890/sinatra-portfolio-project)
 
