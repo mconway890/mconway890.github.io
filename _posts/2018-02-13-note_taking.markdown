@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "Note Taking "
-date:       2018-02-13 18:11:45 +0000
+date:       2018-02-13 13:11:46 -0500
 permalink:  note_taking
 ---
 
 
 I recently began the Rails portion of the online Full Stack Web Development course. It was here that I decided in order to retain and better understand the curriculum, more note taking would be necessary. I had taken notes here and there throughout the course but mainly relied on past labs and lessons to help me. This however became frustrating due to the high volume of labs, lessons and videos. The search to find what I was looking for became time consuming and would resolve in reading countless google search results. After starting Rails I realized note taking every few lessons would come in handy due to the great number of commands that rails offers. 
 
-For instance, rails generators and Commands: 
+For instance, Rails generators and commands: 
 
 <a href="https://imgur.com/JnKXz5o"><img src="https://i.imgur.com/JnKXz5o.jpg?1" title="rails generator commands" /></a>
 
