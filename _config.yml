@@ -1,15 +1,14 @@
 # Site settings
-title: codeOn
+author: Michele Conway
+title: Michele Conway
 header-img: img/home-bg.png
 email: mconway890@gmail.com
-copyright_name: mconway890
+copyright_name: Michele Conway
 description: > # this means to ignore newlines until "baseurl:"
-  starting over
+  Full Stack Web Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  mconway890
-learn_profile: mconway890
-email_username: mconway890@gmail.com
 
 # Build settings
 markdown: kramdown
