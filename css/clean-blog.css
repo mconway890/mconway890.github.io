@@ -215,6 +215,15 @@ hr.small {
     font-size: 30px;
   }
 }
+
+div.site-heading h1 {
+  text-shadow: 2px 2px 4px #bf3923;
+}
+
+div.site-heading span.subheading {
+  text-shadow: 2px 2px 4px #bf3923;
+}
+
 .post-preview > a {
   color: #404040;
 }
