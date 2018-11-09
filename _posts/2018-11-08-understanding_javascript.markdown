@@ -5,7 +5,7 @@ date:       2018-11-08 20:27:14 -0500
 permalink:  understanding_javascript
 ---
 
-## Declaring Variables - var, let, const
+### Declaring Variables - var, let, const
 * `var` - Declares a variable, optionally initializing it to a value.
 * `let` - Declares a block-scoped, local variable, optionally initializing it to a value.
 * `const` - Declares a block-scoped, read-only named constant.
