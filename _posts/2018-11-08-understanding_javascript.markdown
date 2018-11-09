@@ -61,7 +61,8 @@ function castSpell() {
 }
 
 castSpell() // 'Wingardium Leviosa!'
-console.log(levitate) // Error: levitate is not defined```
+console.log(levitate) // Error: levitate is not defined
+```
 
 In the above example, `levitate` is in the castSpell() scope. When you declare a variable in a function, you can only access it within the function.
 
@@ -158,7 +159,7 @@ const professor = {
 	lastName: 'Lupin',
   greet: function() {
     return () => {
-      return `Hi, I'm professor ${this.firstName} ${this.lastName}.`;
+      return 'Hi, I'm professor ${this.firstName} ${this.lastName}.';
     };
   }
 };
