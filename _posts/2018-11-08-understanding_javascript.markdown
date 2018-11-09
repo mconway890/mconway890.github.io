@@ -5,17 +5,17 @@ date:       2018-11-08 20:27:14 -0500
 permalink:  understanding_javascript
 ---
 
-### Declaring Variables - var, let, const
+## Declaring Variables - var, let, const
 * `var` - Declares a variable, optionally initializing it to a value.
 * `let` - Declares a block-scoped, local variable, optionally initializing it to a value.
 * `const` - Declares a block-scoped, read-only named constant.
 
 `let` and `const` provide block scope variables.
 
-### Scope - Local vs Global
+## Scope - Local vs Global
 A variable's scope is the context in which it exists. The scope specifies from where you can access a variable and whether or not you have access to it in that context. 
 
-### **Global Scope**
+## **Global Scope**
 Any variable declared outside of a function belongs to the global scope and is accessible from anywhere in your code. 
 
 ```const globalVariable = 'a value'```
@@ -49,7 +49,7 @@ console.log(theChosenOne) // 'Neville Longbottom'
 ```
 
 
-### **Local Scope**
+## **Local Scope**
 Variables that are usable only in a specific part of your code are in a local scope. The two kinds of local scope are function and block.
 
 **Function scope**
@@ -78,7 +78,7 @@ console.log(forget) // Obliviate!
 console.log(forget); // Error: forget is not defined
 ```
 
-#### var vs. let & const
+### var vs. let & const
 
 ```
 if (true) {
@@ -99,7 +99,7 @@ console.log(y); // Error: y is not defined
 The first example returns 8 because the scope of x is the function within which it was declared and not the block/if statement.
 
 
-### Hoisting
+## Hoisting
 
 Hoisting has been defined as variable and function declarations being "moved to the top" of your code. What is actually happening is the variable and function declarations are put into memory during JavaScripts compile phase but stay exactly where you typed them in your code. 
 
@@ -122,7 +122,8 @@ function className(name){
 // I'm taking Potions this year.
 ```
 
-### Context in JavaScript
+
+## Context in JavaScript
 
 While scope pertains to the visibility of variables, context in JavaScript refers to the object to which a function belongs. When you use the "this" keyword, it refers to the object to which the function belongs. "This" has different values depending on where it is used.
 
@@ -149,7 +150,7 @@ console.log(student.studentInfo()) // Ron Weasley in Gryffindor house is from Th
 
 With the introduction of arrow functions in ES6, the `this` keyword is not used.
 
-### Arrow Functions
+## Arrow Functions
 
 Arrow Functions were introduced as a way for writing shorter functions and without defining its own `this` value. Before arrow functions, every new function defined its own `this` value.  the `this` value of an arrow function is the same as the `this` value of its enclosing object.
 
