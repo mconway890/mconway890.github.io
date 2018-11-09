@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Understanding JavaScript"
-date:       2018-11-09 01:27:13 +0000
+date:       2018-11-08 20:27:14 -0500
 permalink:  understanding_javascript
 ---
 
@@ -12,8 +12,8 @@ permalink:  understanding_javascript
 
 `let` and `const` provide block scope variables.
 
-## Scope - Local vs Global
-*A variable's scope is the context in which it exists. The scope specifies from where you can access a variable and whether or not you have access to it in that context. *
+### Scope - Local vs Global
+A variable's scope is the context in which it exists. The scope specifies from where you can access a variable and whether or not you have access to it in that context. 
 
 ### **Global Scope**
 Any variable declared outside of a function belongs to the global scope and is accessible from anywhere in your code. 
@@ -63,11 +63,12 @@ function castSpell() {
 castSpell() // 'Wingardium Leviosa!'
 console.log(levitate) // Error: levitate is not defined```
 
-In the above example, ```levitate``` is in the castSpell() scope. When you declare a variable in a function, you can only access it within the function.
+In the above example, `levitate` is in the castSpell() scope. When you declare a variable in a function, you can only access it within the function.
 
 **Block scope**
 
-When you declare a variable with ```const``` or ```let``` within ```{ } ``` you can access this only within the curly brace.
+When you declare a variable with `const` or `let` within `{ } ` you can access this only within the curly brace.
+
 ```
 {
 const forget = 'Obliviate!'
@@ -76,7 +77,7 @@ console.log(forget) // Obliviate!
 console.log(forget); // Error: forget is not defined
 ```
 
-**var vs. let & const**
+#### var vs. let & const
 
 ```
 if (true) {
@@ -84,7 +85,9 @@ if (true) {
 }
 console.log(x); // 8
 ```
+
 When using `let` this behavior changes
+
 ```
 if (true) {
    let y = 8;
