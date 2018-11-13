@@ -5,14 +5,14 @@ date:       2018-11-08 20:27:14 -0500
 permalink:  understanding_javascript
 ---
 
-## Declaring Variables - var, let, const
+## **Declaring Variables - var, let, const**
 * `var` - Declares a variable, optionally initializing it to a value.
 * `let` - Declares a block-scoped, local variable, optionally initializing it to a value.
 * `const` - Declares a block-scoped, read-only named constant.
 
 `let` and `const` provide block scope variables.
 
-## Scope - Local vs Global
+## **Scope - Local vs Global**
 A variable's scope is the context in which it exists. The scope specifies from where you can access a variable and whether or not you have access to it in that context. 
 
 ## **Global Scope**
